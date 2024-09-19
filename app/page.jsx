@@ -178,9 +178,9 @@ export default function Home() {
             Join Our <span className=" line-four relative">Community</span> Today
           </h2>
           <p className=" md:text-xl max-w-[900px] mx-auto">
-            Whether you're just starting your PhD or are deep into your
+            Whether you&apos;re just starting your PhD or are deep into your
             research, our community offers the support and resources you need to
-            succeed. Let's grow together!
+            succeed. Let&apos;s grow together!
           </p>
           <div className=" md:w-[80%] w-full mx-auto relative mt-10">
             <input
@@ -189,7 +189,7 @@ export default function Home() {
               className=" text-sm w-full border border-header-10 px-5 py-3 rounded-3xl outline-none bg-transparent"
             />
             <button className="bg-header-10 absolute right-1 top-0 bottom-0 m-auto h-[85%] aspect-square rounded-full">
-              <Image src={arrow} className=" m-auto" width={10} height={10} />
+              <Image src={arrow} className=" m-auto" width={10} height={10} alt="arrow icon" />
             </button>
           </div>
         </div>
