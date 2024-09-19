@@ -14,30 +14,30 @@ export default function details() {
         />
       </section>
       <section>
-        <div className=" max-w-[800px] mx-auto py-10 px-16 shadow-md relative -top-[250px] bg-text-10 z-10" >
+        <div className=" max-w-[800px] mx-auto py-10 md:px-16 px-10 shadow-md relative -top-[250px] bg-text-10 z-10" >
           <div className=" text-center">
-            <h2 className=" text-5xl font-bold">
+            <h2 className=" md:text-5xl text-3xl font-bold">
               Drs. <span className=" line-four relative">Spotlight</span>
             </h2>
           </div>
           <div className=" mt-16">
-            <h3 className=" text-3xl font-bold uppercase">
+            <h3 className=" md:text-3xl text-xl font-bold uppercase">
               The Impact of Artificial Intelligence on Human Decision-Making
             </h3>
-            <div className=" flex justify-between items-center mt-12 italic text-sm font-light">
+            <div className=" flex flex-col md:flex-row md:justify-between gap-y-4 md:items-center mt-12 italic text-sm font-light">
               <p>Written by Drs Spotlight</p>
               <p>July 5th, 2024</p>
               <p>Mining & Corporation</p>
             </div>
           </div>
           <div className=" mt-8">
-            <h4 className=" text-3xl font-semibold">
+            <h4 className=" md:text-3xl text-xl font-semibold">
               The Impact of Artificial Intelligence on Human Decision-Making.{" "}
               <br />
               For a comprehensive exploration of this subject, you may want to
               consider discussing the following points:
             </h4>
-            <ul className=" capitalize list-decimal text-3xl font-light ml-7 flex flex-col gap-10 mt-10">
+            <ul className=" capitalize list-decimal md:text-3xl text-xl font-light ml-7 flex flex-col gap-10 mt-10">
               <li>
                 <p>
                   Definition of Artificial Intelligence (AI): <br /> Explain what AI is

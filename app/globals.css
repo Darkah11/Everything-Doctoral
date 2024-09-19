@@ -10,8 +10,14 @@
 .nav {
     box-shadow: 0 10px 10px #00000033;
 }
+.btn-red-sm {
+    @apply bg-primary-10 border-primary-10 border text-text-10 px-[18px] py-[10px]
+}
 .btn-red {
     @apply bg-primary-10 border-primary-10 border text-text-10 px-5 py-3
+}
+.btn-outline-sm {
+    @apply bg-transparent border-header-10 border text-header-10 px-[18px] py-[10px]
 }
 .btn-outline {
     @apply bg-transparent border-header-10 border text-header-10 px-5 py-3
@@ -21,11 +27,11 @@
 }
 .line::before {
     content: '';
-    @apply w-[190px] h-[10px] absolute bg-primary-10 bottom-1 left-8 -z-10 -rotate-2
+    @apply md:w-[190px] w-[120px] h-[10px] absolute bg-primary-10 bottom-1 left-8 -z-10 -rotate-2
 }
 .line-two::before {
     content: '';
-    @apply w-[190px] h-[10px] absolute bg-primary-10 bottom-2 left-3 -z-10 -rotate-2
+    @apply md:w-[190px] w-[120px] h-[10px] absolute bg-primary-10 md:bottom-2 bottom-1 left-3 -z-10 -rotate-2
 }
 .line-three::before {
     content: '';
@@ -33,5 +39,5 @@
 }
 .line-four::before {
     content: '';
-    @apply w-[190px] h-[10px] absolute bg-primary-10 bottom-2 right-3 -z-10 -rotate-2
+    @apply md:w-[190px] w-[120px] h-[10px] absolute bg-primary-10 md:bottom-2 bottom-1 right-3 -z-10 -rotate-2
 }
